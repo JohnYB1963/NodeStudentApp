@@ -20,7 +20,7 @@ app.post('/submit-student-data', function (request, response) {
     var name = request.body.firstName + request.body.lastName;
     response.send(name + ' Submitted succesfully!');
 });
-
+    
 // app.put('/update-data', function (request, response) {
 //     response.send('PUT Request');
 // });
